@@ -1,0 +1,62 @@
+[
+  {
+    "id": "arena-copacabana",
+    "name": "Arena Copacabana",
+    "neighborhood": "Copacabana",
+    "pricePerHour": 90,
+    "image": "https://picsum.photos/seed/arena-copacabana/600/400",
+    "features": ["Coberta", "Iluminação noturna", "Areia oficial"],
+    "status": "available",
+    "rating": 4.8
+  },
+  {
+    "id": "arena-ipanema",
+    "name": "Arena Ipanema",
+    "neighborhood": "Ipanema",
+    "pricePerHour": 110,
+    "image": "https://picsum.photos/seed/arena-ipanema/600/400",
+    "features": ["Ao ar livre", "Vista para o mar"],
+    "status": "available",
+    "rating": 4.6
+  },
+  {
+    "id": "arena-barra",
+    "name": "Arena Barra",
+    "neighborhood": "Barra da Tijuca",
+    "pricePerHour": 70,
+    "image": "https://picsum.photos/seed/arena-barra/600/400",
+    "features": ["Coberta", "Estacionamento"],
+    "status": "busy",
+    "rating": 4.4
+  },
+  {
+    "id": "arena-tijuca",
+    "name": "Arena Tijuca",
+    "neighborhood": "Tijuca",
+    "pricePerHour": 60,
+    "image": "https://picsum.photos/seed/arena-tijuca/600/400",
+    "features": ["Ao ar livre", "Iluminação noturna"],
+    "status": "available",
+    "rating": 4.2
+  },
+  {
+    "id": "arena-botafogo",
+    "name": "Arena Botafogo",
+    "neighborhood": "Botafogo",
+    "pricePerHour": 85,
+    "image": "https://picsum.photos/seed/arena-botafogo/600/400",
+    "features": ["Coberta", "Vestiário"],
+    "status": "available",
+    "rating": 4.7
+  },
+  {
+    "id": "arena-leblon",
+    "name": "Arena Leblon",
+    "neighborhood": "Leblon",
+    "pricePerHour": 120,
+    "image": "https://picsum.photos/seed/arena-leblon/600/400",
+    "features": ["Ao ar livre", "Areia oficial", "Bar"],
+    "status": "busy",
+    "rating": 4.9
+  }
+]
