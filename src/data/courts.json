@@ -4,8 +4,12 @@
     "name": "Arena Copacabana",
     "neighborhood": "Copacabana",
     "pricePerHour": 90,
-    "image": "https://picsum.photos/seed/arena-copacabana/600/400",
-    "features": ["Coberta", "Iluminação noturna", "Areia oficial"],
+    "image": "https://images.pexels.com/photos/32390768/pexels-photo-32390768.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    "features": [
+      "Coberta",
+      "Iluminação noturna",
+      "Areia oficial"
+    ],
     "status": "available",
     "rating": 4.8
   },
@@ -14,8 +18,11 @@
     "name": "Arena Ipanema",
     "neighborhood": "Ipanema",
     "pricePerHour": 110,
-    "image": "https://picsum.photos/seed/arena-ipanema/600/400",
-    "features": ["Ao ar livre", "Vista para o mar"],
+    "image": "https://images.pexels.com/photos/20863183/pexels-photo-20863183.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    "features": [
+      "Ao ar livre",
+      "Vista para o mar"
+    ],
     "status": "available",
     "rating": 4.6
   },
@@ -24,8 +31,11 @@
     "name": "Arena Barra",
     "neighborhood": "Barra da Tijuca",
     "pricePerHour": 70,
-    "image": "https://picsum.photos/seed/arena-barra/600/400",
-    "features": ["Coberta", "Estacionamento"],
+    "image": "https://images.pexels.com/photos/20863200/pexels-photo-20863200.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    "features": [
+      "Coberta",
+      "Estacionamento"
+    ],
     "status": "busy",
     "rating": 4.4
   },
@@ -34,8 +44,11 @@
     "name": "Arena Tijuca",
     "neighborhood": "Tijuca",
     "pricePerHour": 60,
-    "image": "https://picsum.photos/seed/arena-tijuca/600/400",
-    "features": ["Ao ar livre", "Iluminação noturna"],
+    "image": "https://images.pexels.com/photos/5739121/pexels-photo-5739121.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    "features": [
+      "Ao ar livre",
+      "Iluminação noturna"
+    ],
     "status": "available",
     "rating": 4.2
   },
@@ -44,8 +57,11 @@
     "name": "Arena Botafogo",
     "neighborhood": "Botafogo",
     "pricePerHour": 85,
-    "image": "https://picsum.photos/seed/arena-botafogo/600/400",
-    "features": ["Coberta", "Vestiário"],
+    "image": "https://images.pexels.com/photos/5739119/pexels-photo-5739119.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    "features": [
+      "Coberta",
+      "Vestiário"
+    ],
     "status": "available",
     "rating": 4.7
   },
@@ -54,8 +70,12 @@
     "name": "Arena Leblon",
     "neighborhood": "Leblon",
     "pricePerHour": 120,
-    "image": "https://picsum.photos/seed/arena-leblon/600/400",
-    "features": ["Ao ar livre", "Areia oficial", "Bar"],
+    "image": "https://images.pexels.com/photos/1432039/pexels-photo-1432039.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop",
+    "features": [
+      "Ao ar livre",
+      "Areia oficial",
+      "Bar"
+    ],
     "status": "busy",
     "rating": 4.9
   }
