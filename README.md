@@ -1,63 +1,66 @@
 # BeachSpot
 
-BeachSpot is a beach-tennis court booking front-end. Browse arenas, filter by
-neighborhood and price, pick an available time slot, and confirm a reservation.
-Built as an academic MVP for the PUC-Rio "Desenvolvimento Front-end Avançado" course.
+BeachSpot é um front-end para reserva de quadras de beach tennis. Navegue pelas
+arenas, filtre por bairro e preço, escolha um horário disponível e confirme sua
+reserva. Desenvolvido como um MVP acadêmico para a disciplina "Desenvolvimento
+Front-end Avançado" da PUC-Rio.
 
-## Tech stack
+## Stack de tecnologias
 
 - React 19 + Vite 8
 - React Router 7
 - Tailwind CSS v4
 - Vitest + Testing Library
 
-## Getting started
+## Como começar
 
-### Prerequisites
+### Pré-requisitos
 
-- Node.js 20+ and npm
+- Node.js 20+ e npm
 
-### Installation
+### Instalação
 
 ```bash
-git clone <your-repo-url>
+git clone <url-do-seu-repositorio>
 cd beachspot
 npm install
 ```
 
-### Run in development
+### Executar em desenvolvimento
 
 ```bash
 npm run dev
 ```
 
-Open the URL printed in the terminal (default http://localhost:5173).
+Abra a URL exibida no terminal (padrão: http://localhost:5173).
 
-### Run the tests
+### Executar os testes
 
 ```bash
 npm run test
 ```
 
-### Production build
+### Build de produção
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## Project structure
+## Estrutura do projeto
 
-- `src/components/ui` and `src/components/layout` — reusable presentational components
-- `src/features/courts` and `src/features/booking` — domain components and state
-- `src/pages` — route entry points (Home, Courts, CourtDetail, Reservations, NotFound)
-- `src/services` — JSON-backed data layer that simulates request latency
-- `src/hooks` — shared hooks (`useFetch`)
-- `src/data` — mock JSON data
+- `src/components/ui` e `src/components/layout` — componentes de apresentação reutilizáveis
+- `src/features/courts` e `src/features/booking` — componentes de domínio e estado
+- `src/pages` — pontos de entrada das rotas (Home, Courts, CourtDetail, Reservations, NotFound)
+- `src/services` — camada de dados baseada em JSON que simula latência de requisição
+- `src/hooks` — hooks compartilhados (`useFetch`)
+- `src/data` — dados mockados em JSON
 
-## Notes
+## Observações
 
-Data is mocked: the service layer reads local JSON and simulates network latency,
-so no backend is required. Reservations persist in the browser via `localStorage`.
+Os dados são mockados: a camada de serviços lê arquivos JSON locais e simula
+latência de rede, dispensando a necessidade de um backend. As reservas são
+persistidas no navegador via `localStorage`.
 
-See `docs/adr/0001-mvp-architecture.md` for the architecture decision record.
+Consulte `docs/adr/0001-mvp-architecture.md` para o registro de decisão de
+arquitetura (ADR).
