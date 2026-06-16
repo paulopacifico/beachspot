@@ -20,7 +20,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-sand-200 bg-sand-50/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-        <Link to="/" className="text-xl font-bold text-ocean-700" onClick={() => setOpen(false)}>🏖️ BeachSpot</Link>
+        <Link to="/" className="text-2xl font-extrabold tracking-tight text-ocean-700" onClick={() => setOpen(false)}>BeachSpot</Link>
 
         <nav aria-label="Principal" className="hidden gap-1 sm:flex">
           {LINKS.map((link) => (
